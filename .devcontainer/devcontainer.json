@@ -9,7 +9,8 @@
 			"packages": "autojump,curl,wget,xdg-utils"
 		},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
-		"ghcr.io/edouard-lopez/devcontainer-features/bats:0": {}
+		"ghcr.io/edouard-lopez/devcontainer-features/bats:0": {},
+		"ghcr.io/ddev/ddev/install-ddev:latest": {}
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -19,7 +20,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "./.devcontainer/setup_test_project.sh",
+	"postCreateCommand": "./.devcontainer/setup_test_project.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
