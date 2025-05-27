@@ -6,7 +6,7 @@
     "image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-			"packages": "autojump,curl,wget,xdg-utils,php8.3-gd"
+			"packages": "autojump,curl,wget,xdg-utils"
 		},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
 		"ghcr.io/edouard-lopez/devcontainer-features/bats:0": {},
