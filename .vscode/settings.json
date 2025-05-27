@@ -7,5 +7,6 @@
     },
     "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
     "editor.formatOnSave": true,
-    "go.formatTool": "gofmt"
+    "go.formatTool": "gofmt",
+    "git.ignoreLimitWarning": true
 }
